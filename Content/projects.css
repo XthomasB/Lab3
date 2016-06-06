@@ -1,0 +1,20 @@
+/*Projects.css intended for Projects.html image editing*/
+.project1 {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding-right: 10px;   }   
+.project2 {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding-right: 10px;
+} 
+.project3 {
+    width: 300px;
+    height:300px;
+}
+
+.works {
+    
+}
