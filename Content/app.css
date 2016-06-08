@@ -1,3 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+
+
+
+
+
+
+
 .navbar-collapse{
   background-color: #000;
 }
@@ -144,7 +153,7 @@
 
 body {
     background-color: darkgrey;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 16px;
     
