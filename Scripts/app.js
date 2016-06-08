@@ -1,4 +1,5 @@
 /* main JavaScript file */
+
 // IIFE - Immediately Invoked Function Expression
 (function(){
     "use strict";
@@ -57,6 +58,35 @@
         console.log(index);
         if(paragraphElements[index]) {
          paragraphElements[index].textContent = paragraphs[index];
+        }
+    }
+
+    var pagebody = document.getElementsByTagName("body");
+    console.log(pagebody);
+    
+
+    function Pageswitcher() {
+        switch (document.title) {
+            case "home":
+                Home();
+                break;
+            case "about me":
+                About();
+                break;
+            case "Projects":
+                Projects();
+                break;
+        }
+        {
+            function Home(){
+                console.log("You are at home page")
+            }
+            function About (){
+                console.log("You are at contact page")
+            }
+            function Projects(){
+                console.log("You are at the projects page")
+            }
         }
     }
     
